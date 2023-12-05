@@ -32,7 +32,7 @@ In a twelve-factor app, env vars are granular controls, each fully orthogonal to
 
 ## Mandatory Properties
 
-### [component-default.properties](/blob/main/component-default.properties)
+### [component-default.properties](/component-default.properties)
 
 The recommended default `application.properties` for all **TagitCore Rest** Spring Boot applications.
 
@@ -58,11 +58,11 @@ Use these profiles to switch from Development to Production configuration.
 
 Production configuration will usually produce less verbose logs.
 
-#### [component-env-profile-dev.properties](/blob/main/component-env-profile-dev.properties)
+#### [component-env-profile-dev.properties](/component-env-profile-dev.properties)
 
 The `dev` profile properties for development and debugging. Useful in DEV, QA and UAT environments.
 
-#### [component-env-profile-prod.properties](/blob/main/component-env-profile-prod.properties)
+#### [component-env-profile-prod.properties](/component-env-profile-prod.properties)
 
 The `prod` profile properties for production. Useful in PREPROD and PROD environments.
 
@@ -73,14 +73,14 @@ Use these profiles to switch DB connectivity to a different RDBMS type:
 - Oracle 
 - Microsoft SQL Server 
 
-#### [component-db-profile-mysql.properties](/blob/main/component-db-profile-mysql.properties)
+#### [component-db-profile-mysql.properties](/component-db-profile-mysql.properties)
 
 The `mysql` profile properties for connecting to a MySQL database.
 
-#### [component-db-profile-oracle.properties](/blob/main/component-db-profile-oracle.properties)
+#### [component-db-profile-oracle.properties](/component-db-profile-oracle.properties)
 
 The `oracle` profile properties for connecting to a MySQL database.
 
-#### [component-db-profile-sqlserver.properties](/blob/main/component-db-profile-sqlserver.properties)
+#### [component-db-profile-sqlserver.properties](/component-db-profile-sqlserver.properties)
 
 The `mssql` profile properties for connecting to a MySQL database.
