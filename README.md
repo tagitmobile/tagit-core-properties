@@ -42,6 +42,17 @@ Use this as your template and add the custom properties at the bottom. Each prop
 >
 > Mobeix 7.5 applications must follow these properties.
 
+### [mxprocess-default.properties](/mxprocess-default.properties)
+
+The recommended default `tagit-core.properties` for all **TagitCore** Spring applications deployed alongside Mobeix Platform's `mxprocess` component.
+
+Use this as your template and add the custom properties at the bottom. Each property can be overridden subsequently via `Mobeix Cloud Config (mxconfig)` profiles and labels.
+
+> **Mandatory from Mobeix 7.5**
+>
+> Mobeix 7.5 applications must follow these properties.
+
+
 ## Mobeix Cloud Config Profile Properties
 
 These properties are recommended to be inserted by Flyway scripts to the `Mobeix Cloud Config (mxconfig)` table `mx_comp_config.`
