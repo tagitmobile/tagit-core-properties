@@ -44,7 +44,7 @@ Use this as your template and add the custom properties at the bottom. Each prop
 
 ### [mxprocess-default.properties](/mxprocess-default.properties)
 
-The recommended default `tagit-core.properties` for all **TagitCore** Spring applications deployed alongside Mobeix Platform's `mxprocess` component.
+The recommended default `tagit-core.properties` for all **TagitCore** Spring applications deployed alongside Mobeix Platform's `mxprocess` component. Compared to TagitCore Rest properties, there are less configurable properties available since in this flow, a new TagitCore Spring Application Context is loaded during the [Mobeix Filter Execution](https://edocs1.tagitmobile.com/confluence/display/PPDG/Getting+Started+-+Server+Layer#GettingStartedServerLayer-MobeixFilterConfiguration).
 
 Use this as your template and add the custom properties at the bottom. Each property can be overridden subsequently via `Mobeix Cloud Config (mxconfig)` profiles and labels.
 
